@@ -157,7 +157,7 @@ test_api.py
 
 The model was tested successfully and returned correct predictions.
 
-##🚀 Current Status
+## 🚀 Current Status
 
 ✅ Dataset loaded
 ✅ Machine Learning model trained
