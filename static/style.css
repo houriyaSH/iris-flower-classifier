@@ -1,0 +1,30 @@
+p {
+    color: rgb(190, 93, 93);
+    font-size: 24px;
+}
+body {
+  background-color: lightgray;
+  background-image: url('https://golnikrah.com/wp-content/uploads/2023/02/types-of-iris.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+} 
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px ;
+    margin: auto;
+}
+footer {
+    background: #333;
+    color: #fff;
+    margin-top: 100px;
+    padding: 10px ;
+    }
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 22px;
+  color: #fff;
+}
