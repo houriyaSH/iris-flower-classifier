@@ -159,13 +159,13 @@ The model was tested successfully and returned correct predictions.
 
 ## 🚀 Current Status
 
-✅ Dataset loaded
-✅ Machine Learning model trained
-✅ Model saved as .pkl file
-✅ Flask API created
-✅ Frontend designed
-✅ API connected to frontend
-✅ Project uploaded to GitHub
+- ✅ Dataset loaded
+- ✅ Machine Learning model trained
+- ✅ Model saved as .pkl file
+- ✅ Flask API created
+- ✅ Frontend designed
+- ✅ API connected to frontend
+- ✅ Project uploaded to GitHub
 
 🔮 Future Improvements
 
