@@ -6,7 +6,11 @@ The project uses a trained Machine Learning model deployed as a Flask web applic
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
+
+You can try the deployed application here:
+
+🔗 https://iris-flower-classifier-0hm4.onrender.com
 
 The application allows users to enter:
 
@@ -23,18 +27,18 @@ and predicts the Iris species instantly.
 
 The model was trained using the Iris dataset.
 
-Features:
+### Features:
 
 - SepalLengthCm
 - SepalWidthCm
 - PetalLengthCm
 - PetalWidthCm
 
-Target:
+### Target:
 
 - Species
 
-Machine Learning algorithm:
+### Algorithm:
 
 - Scikit-learn Classification Model
 
@@ -49,6 +53,7 @@ Machine Learning algorithm:
 - Scikit-learn
 - Pandas
 - NumPy
+- Joblib
 
 ### Frontend
 
@@ -56,8 +61,9 @@ Machine Learning algorithm:
 - CSS
 - JavaScript
 
-### Tools
+### Deployment & Tools
 
+- Render
 - Git
 - GitHub
 - VS Code
@@ -67,7 +73,7 @@ Machine Learning algorithm:
 ## 📂 Project Structure
 
 ```text
-iris-project
+iris-flower-classifier
 
 ├── app.py
 ├── model.py
@@ -88,7 +94,7 @@ iris-project
 └── .gitignore
 ```
 
-
+---
 
 ## ⚙️ How To Run The Project Locally
 
@@ -112,7 +118,7 @@ python -m venv venv
 
 ### 4. Activate virtual environment
 
-For Windows:
+Windows:
 
 ```bash
 venv\Scripts\activate
@@ -135,47 +141,63 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
+
+---
+
 ## 🔍 Example Prediction
-Example input:
-Example Prediction
-Example input:
+
+### Input:
+
+```
 Sepal Length: 5.1
 Sepal Width: 3.5
 Petal Length: 1.4
 Petal Width: 0.2
+```
 
+### Model Output:
 
-## Model output:
+```
 Iris-setosa
+```
+
+---
 
 ## 🧪 Testing
 
 The project includes test files:
 
-test_model.py
-test_api.py
+- `test_model.py`
+- `test_api.py`
 
-The model was tested successfully and returned correct predictions.
+The model and API were tested successfully and returned correct predictions.
 
-## 🚀 Current Status
+---
 
-- ✅ Dataset loaded
-- ✅ Machine Learning model trained
-- ✅ Model saved as .pkl file
-- ✅ Flask API created
-- ✅ Frontend designed
-- ✅ API connected to frontend
-- ✅ Project uploaded to GitHub
+## 🚀 Deployment Status
 
-🔮 Future Improvements
+✅ Dataset loaded  
+✅ Machine Learning model trained  
+✅ Model saved as `.pkl` file  
+✅ Flask API created  
+✅ Frontend designed  
+✅ API connected to frontend  
+✅ Application deployed online using Render  
+✅ Source code hosted on GitHub  
+
+---
+
+## 🔮 Future Improvements
 
 Possible future updates:
 
-- Deploy the application online
 - Improve UI design
 - Add prediction history
 - Add more Machine Learning models
 - Add charts and data visualization
+- Add user authentication
+
+---
 
 ## 👨‍💻 Author
 
