@@ -28,36 +28,3 @@ h2 {
   font-size: 22px;
   color: #fff;
 }
-input{
-    width:100%;
-    box-sizing:border-box;
-}
-.container{
-    width: 90%;
-    max-width: 700px;
-    margin: auto;
-}
-button{
-    min-width:180px;
-}
-@media (max-width:768px){
-
-    h1{
-        font-size:28px;
-    }
-
-    .container{
-        width:95%;
-        padding:20px;
-    }
-
-    input{
-        font-size:16px;
-    }
-
-    button{
-        font-size:16px;
-        padding:12px;
-    }
-
-}
